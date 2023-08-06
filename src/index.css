@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+th,
+td,
+table {
+  @apply border border-slate-500 px-8 py-2 text-center;
+}
+
+
+tr:nth-child(even) {
+  @apply bg-slate-200;
+}
